@@ -1,10 +1,8 @@
 = Projektantrag digitale Schulwahl
-Flora Dallinger
-1.0, {docdate}: Some notes
+Flora Dallinger 3ahif
+1.0, {docdate}: Projektantrag
 ifndef::imagesdir[:imagesdir: images]
 :icons: font
-
-Flora Dallinger 3ahif 18.10.2024
 
 == Projektbeschreibung
 Da vor kurzem die Schülervertretungswahlen an der HTL Leonding stattgefunden haben und schon
