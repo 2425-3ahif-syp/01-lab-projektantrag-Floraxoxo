@@ -1,4 +1,4 @@
-= Projektantrag digitales Schulwahl
+= Projektantrag digitale Schulwahl
 Flora Dallinger
 1.0, {docdate}: Some notes
 ifndef::imagesdir[:imagesdir: images]
@@ -8,37 +8,47 @@ Flora Dallinger 3ahif 18.10.2024
 
 == Projektbeschreibung
 Da vor kurzem die Schülervertretungswahlen an der HTL Leonding stattgefunden haben und schon
-wieder eine ganze Stunde für das analoge Wählen und Auszählen aufgwendet wurde habe ich mir
-überlegt, dass wir diesen Vorgang **effizienter** gestalten können. +
-Vor allem in einer HTL mit dem Schwerpunkt Technik/Informatik ist es wichtig analoge Prozesse zu digitalisieren
-und somit eine Vorbildfunktion im Thema IT, für andere Schulen zu schaffen.
+wieder einige Stunden für das analoge Wählen und Auszählen aufgwendet werden mussten, habe ich den Vorschlag,
+diesen Vorgang **effizienter** zu gestalten. +
+Vor allem in einer HTL mit dem Schwerpunkt Technik/Informatik ist es wichtig, analoge Prozesse zu digitalisieren
+und somit eine Vorbildfunktion im Thema IT für andere Schulen zu schaffen. Mit dem Programm soll es möglich sein,+
+die Schülervertretungswahl auf elektronischem Weg einfach und schnell abzuwickeln und nachvollziehbar zu gestalten.
 
 == Zweck
-* Den Ablauf der Schülervertretungswahl zu vereinfachen
-* Keinen unnötigen Zeitverbrauch
-* weniger Rechenfehler
+Ziel des Projekts ist es, den aktuell noch komplizierten Ablaub der Wahl zu vereinfachen.  +
+Bei Erfüllung dieses Punktes kann auch garantiert werden, dass die Wahlen viel schneller abgewickelt werden und keine Leerläufe entstehen. +
+Zusätzlich besteht weniger die Gefahr, dass das Wahlergebnis falsch berechnet wird, da dies nun eine Rechenmaschine
+übernimmt. Somit wird auch eine große Last sowohl von SchülerInnen und LehrerInnen als auch vom Sekretariat genommen.
+Auch der Aspekt der Ressourcenschonung wird hiermit einbezogen. Bis jetzt musste für jede/n SchülerIn ein eigener Wahlzettel
+ausgedruckt werden. Mit der elektronischen Variante fällt dies gänzlich weg. +
+Mit Umsetzung dieses Projektes werden somit folgende Vorteile verwirklicht:
+
+
+* Vereinfachung des Ablaufs der Schülervertretungswahl
+* Reduzierung des Zeitverbrauchs
+* Vermeidung von Rechenfehlern
 * Entlastung für SchülerInnen und LehrerInnen
-* Weniger Papier Verschwendung
+* Ressourcenschonung (z.B. Papier)
 
-== Kunde/Beteiligten
-.Kunde
-* Schulverwaltung
-** Verpflichtet Schülervertretungswahlen durchzuführen
+== Kunde/Stakeholder
+Die Schulverwaltung ist verpflichtet eine SchülerInnenvertretungswahl durchzuführen. Dadurch glit diese als Kunde in dem Projekt.
+Es liegt in ihrem Interesse die Wahl so zeitsparend, übersichtlich und nachvollziehbar wie möglich abzuhalten.
 
-.Beteiligten
+Die Stakeholder sind alle anderen Beteiligten:
+
 * SchülerInnen
 * LehrerInnen
-* Sekretariat
-* ProjektkoordinatorIn
+* WahlkandidatInnen
 
 == Endergebnis
 .Konkretere Beschreibung
-Bei dem Schulwahlrechner sollen LehrerInnnen am Anfang die Zahl der anwesenden SchülerInnen eintragen
-können. Danach wird ein Code generiert. Der Code soll eine Starteinheit haben, die je nach Klasse unterschiedlich ist.
-Am Ende sollen noch zwei individuelle Zahlen hinzugefügt werden, die durch durchzählen der SchülerInnen erhoben werden können.
-Mit diesem Code können sich schließlich die SchülerInnen anmelden. +
-Diese gelangen direkt zu der Abstimmung und können hier auswählen wem sie welche Punkteanzahl geben wollen.
-Um das Ganze leichter auslesbar zu gestalten, stehen die Namen bereits auf dem Screen und nur die Punkte können zugeteilt werden.
+Zu Beginn werden bei dem Schulwahlprogramm die Zahl der anwesenden SchülerInnen pro Klasse eingetragen.
+Danach wird ein Code generiert. Der Code soll eine Starteinheit haben, die je nach Klasse unterschiedlich ist.
+Am Ende werden zwei individuelle Zahlen hinzugefügt, die nach Durchzählen der SchülerInnen erhoben werden können.
+Mit dem jeweilig zufällig zugeteilten Code kann sich jede/r SchülerIn individuell und vor allem anonym einmalig anmelden. +
+Der/die SchülerIn gelangt direkt zur Abstimmung und kann hier auswählen, wem er/sie welche Punkteanzahl gibt.
+Um die Abstimmung leichter auslesbar zu gestalten, stehen die Namen der KandidatInnen bereits auf dem Screen und nur die +
+Punkte können zugeteilt werden, die in einem eigenen Feld zur Auswahl stehen.
 
 
 .Umzusetzendes
@@ -67,31 +77,31 @@ Optionale Erweiterung::
 
 == Ablauf
 . Kick off
-. Durchführung mit Meilensteinun und Team Besprechungen
+. Durchführung mit Meilensteinen und regelmäßigen Teambesprechungen
 .. Frontend
 .. Backend
-.. Zusammensetzung
+.. Zusammensetzung von Frontend und Backend
 .. Testlauf
 .. Optimierung
 .. Einführung Datenbanken (optional)
+.. Testlauf
+.. Rollout
+
 
 
 == Ressourcen
-.Basis Ressourcen
-* gültige SchülerInnnelisten
-
-.Menschliche Ressourcen
-* Min. zwei Personen
-* Max. vier Personen
-
-.Zeitliche Ressourcen
-
+Meiner Schätzung nach wird ein Team von mindestens 2 bis maximal 4 Personen benötigt. Innbegriffen ist eine Projektleitung.
+Zusätzlich ist ein/e ProjektkoordinatorIn zu bestimmen, der/die sich um die jährliche Abwicklung der Schulwahl kümmert. +
+Zeitlich wird mit einem Aufwand für die Umsetzung von 15 Personentagen (1 pt = 8h) gerechnet.
 
 
 == Konsequenzen bei Nichtdurchführung
-* Prozesse dauern noch immer sehr lange
+Bei Nichtdurchführung des Projektes wird sich am aktuellen Ablauf der Wahlen nur wenig ändern. +
+Ohne die Digitalisierung werden nur kleine Verbesserungen möglich sein während mit der Digitalisierung die Effizienz und
+die Zeitersparnis enorm steigen werden.
 
 
 == Quellen
 * Erfahrung im Ferialpraktikum der Solvistas GmbH
+* Das Buch 'Systemplanung und Projektentwicklung'
 * https://asciidoctor.org/docs/asciidoc-writers-guide/[*Asciidoc Tutorial*^]
