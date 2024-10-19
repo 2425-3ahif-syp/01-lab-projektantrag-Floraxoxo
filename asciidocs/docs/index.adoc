@@ -4,8 +4,6 @@ Flora Dallinger
 ifndef::imagesdir[:imagesdir: images]
 :icons: font
 
-
-
 Flora Dallinger 3ahif 18.10.2024
 
 == Projektbeschreibung
@@ -20,10 +18,12 @@ und somit eine Vorbildfunktion im Thema IT, für andere Schulen zu schaffen.
 * Keinen unnötigen Zeitverbrauch
 * weniger Rechenfehler
 * Entlastung für SchülerInnen und LehrerInnen
+* Weniger Papier Verschwendung
 
 == Kunde/Beteiligten
 .Kunde
-* Schule
+* Schulverwaltung
+** Verpflichtet Schülervertretungswahlen durchzuführen
 
 .Beteiligten
 * SchülerInnen
@@ -34,16 +34,19 @@ und somit eine Vorbildfunktion im Thema IT, für andere Schulen zu schaffen.
 == Endergebnis
 .Konkretere Beschreibung
 Bei dem Schulwahlrechner sollen LehrerInnnen am Anfang die Zahl der anwesenden SchülerInnen eintragen
-können. Danach wird ein Code generiert, mit dem sich schließlich die SchülerInnen anmelden können.
+können. Danach wird ein Code generiert. Der Code soll eine Starteinheit haben, die je nach Klasse unterschiedlich ist.
+Am Ende sollen noch zwei individuelle Zahlen hinzugefügt werden, die durch durchzählen der SchülerInnen erhoben werden können.
+Mit diesem Code können sich schließlich die SchülerInnen anmelden. +
 Diese gelangen direkt zu der Abstimmung und können hier auswählen wem sie welche Punkteanzahl geben wollen.
 Um das Ganze leichter auslesbar zu gestalten, stehen die Namen bereits auf dem Screen und nur die Punkte können zugeteilt werden.
 
 
-.Ablauf
+.Umzusetzendes
 User Interface::
 . Auswahl zwischen LehrerIn und SchülerIn
 * Als LehrerIn
 ** Anmeldung
+** Auswahl der Klasse
 ** Auswahl wie viele SchülerInnen präsent sind
 ** Generierung eines Codes
 * Als SchülerIn
@@ -57,19 +60,12 @@ Backend::
 * Abstimmung
 ** Tabellen auf denen man ankreuzen kann wer wie viele Stimmen bekommt
 ** Keine gleiche Punkteanzahl für mehrere Personen
-oOtionale Erweiterung::
+Optionale Erweiterung::
 . Datenbanken
+* Erleichterung des Prozesses
+** Soll direkt angeben wie viele SchülerInnen maximal anwesend sein können
 
-
-== Ressourcen
-.Materielle Ressourcen
-* gültige SchülerInnnelisten
-
-.Menschliche Ressourcen
-* Min. zwei Personen
-* Max. vier Personen
-
-.Zeitliche Ressourcen
+== Ablauf
 . Kick off
 . Durchführung mit Meilensteinun und Team Besprechungen
 .. Frontend
@@ -77,19 +73,25 @@ oOtionale Erweiterung::
 .. Zusammensetzung
 .. Testlauf
 .. Optimierung
-.. Einführung Datenbanken
+.. Einführung Datenbanken (optional)
+
+
+== Ressourcen
+.Basis Ressourcen
+* gültige SchülerInnnelisten
+
+.Menschliche Ressourcen
+* Min. zwei Personen
+* Max. vier Personen
+
+.Zeitliche Ressourcen
+
+
 
 == Konsequenzen bei Nichtdurchführung
+* Prozesse dauern noch immer sehr lange
 
 
-
-
-
-
-
-
-
-
-
-
-
+== Quellen
+* Erfahrung im Ferialpraktikum der Solvistas GmbH
+* https://asciidoctor.org/docs/asciidoc-writers-guide/[*Asciidoc Tutorial*^]
