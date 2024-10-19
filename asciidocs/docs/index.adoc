@@ -1,4 +1,95 @@
-= Index page
+= Projektantrag digitales Schulwahl
+Flora Dallinger
+1.0, {docdate}: Some notes
 ifndef::imagesdir[:imagesdir: images]
+:icons: font
 
-image::img.png[]
+
+
+Flora Dallinger 3ahif 18.10.2024
+
+== Projektbeschreibung
+Da vor kurzem die Schülervertretungswahlen an der HTL Leonding stattgefunden haben und schon
+wieder eine ganze Stunde für das analoge Wählen und Auszählen aufgwendet wurde habe ich mir
+überlegt, dass wir diesen Vorgang **effizienter** gestalten können. +
+Vor allem in einer HTL mit dem Schwerpunkt Technik/Informatik ist es wichtig analoge Prozesse zu digitalisieren
+und somit eine Vorbildfunktion im Thema IT, für andere Schulen zu schaffen.
+
+== Zweck
+* Den Ablauf der Schülervertretungswahl zu vereinfachen
+* Keinen unnötigen Zeitverbrauch
+* weniger Rechenfehler
+* Entlastung für SchülerInnen und LehrerInnen
+
+== Kunde/Beteiligten
+.Kunde
+* Schule
+
+.Beteiligten
+* SchülerInnen
+* LehrerInnen
+* Sekretariat
+* ProjektkoordinatorIn
+
+== Endergebnis
+.Konkretere Beschreibung
+Bei dem Schulwahlrechner sollen LehrerInnnen am Anfang die Zahl der anwesenden SchülerInnen eintragen
+können. Danach wird ein Code generiert, mit dem sich schließlich die SchülerInnen anmelden können.
+Diese gelangen direkt zu der Abstimmung und können hier auswählen wem sie welche Punkteanzahl geben wollen.
+Um das Ganze leichter auslesbar zu gestalten, stehen die Namen bereits auf dem Screen und nur die Punkte können zugeteilt werden.
+
+
+.Ablauf
+User Interface::
+. Auswahl zwischen LehrerIn und SchülerIn
+* Als LehrerIn
+** Anmeldung
+** Auswahl wie viele SchülerInnen präsent sind
+** Generierung eines Codes
+* Als SchülerIn
+** Anmeldung durch den Code
+** Punktevergabe
+Backend::
+. Überprüfungen
+* Codes
+** dürfen nicht doppelt vorkommen
+** genausoviele Schüleranmeldungen über einen Code wie von der Lehrkraft angegeben
+* Abstimmung
+** Tabellen auf denen man ankreuzen kann wer wie viele Stimmen bekommt
+** Keine gleiche Punkteanzahl für mehrere Personen
+oOtionale Erweiterung::
+. Datenbanken
+
+
+== Ressourcen
+.Materielle Ressourcen
+* gültige SchülerInnnelisten
+
+.Menschliche Ressourcen
+* Min. zwei Personen
+* Max. vier Personen
+
+.Zeitliche Ressourcen
+. Kick off
+. Durchführung mit Meilensteinun und Team Besprechungen
+.. Frontend
+.. Backend
+.. Zusammensetzung
+.. Testlauf
+.. Optimierung
+.. Einführung Datenbanken
+
+== Konsequenzen bei Nichtdurchführung
+
+
+
+
+
+
+
+
+
+
+
+
+
